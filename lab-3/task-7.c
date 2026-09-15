@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(){
+
+    char city[20], country[10], grade;
+    int population, area;
+
+    printf("Enter the Name of City you live in: ");
+    scanf("%s", &city);
+
+    printf("Enter the Name of Country you live in: ");
+    scanf("%s", &country);
+
+    printf("Enter the Area of City you live in: ");
+    scanf("%d", &area);
+
+    printf("Enter the Population of City you live in: ");
+    scanf("%d", &population);
+
+    printf("What Would you grade your city on a scale of A to F? : ");
+    scanf("%c", &grade);
+
+    printf("You live in %s: %s", city);
+    return 0;
+}
