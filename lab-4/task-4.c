@@ -1,6 +1,6 @@
 
-// find this code on github in the link below
-// 
+// FIND THIS CODE ON GITHUB VIA THE LINK BELOW
+// GITHUB LINK: https://github.com/sheikh-hashir14/PF-Lab-26K-0057/blob/main/lab-4/task-4.c
 
 
 #include <stdio.h>
