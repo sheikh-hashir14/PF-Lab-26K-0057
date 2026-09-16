@@ -2,7 +2,7 @@
 
 int main(){
 
-    char city[20], country[10], grade;
+    char city[20], country[20], grade;
     int population, area;
 
     printf("Enter the Name of City you live in: ");
@@ -18,8 +18,12 @@ int main(){
     scanf("%d", &population);
 
     printf("What Would you grade your city on a scale of A to F? : ");
-    scanf("%c", &grade);
+    scanf(" %c", &grade);
 
-    printf("You live in %s: %s", city);
+    printf("You live in %s, %s\n", city, country);
+    printf("Population: %d\n", population);
+    printf("Area: %d\n", area);
+    printf("Grade: %c\n", grade);
+
     return 0;
 }
