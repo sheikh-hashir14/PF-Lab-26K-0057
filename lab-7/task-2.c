@@ -29,10 +29,10 @@ int determinant(int M[5][5], int n){
 
 void multiply(int X[5][5], int Y[5][5], int R[5][5], int n){
     int i, j, k;
-    for(i = 0; i < n; i++){
-        for(j = 0; j < n; j++){
+    for(i=0 ; i<n ; i++){
+        for(j=0 ; j<n ; j++){
             R[i][j] = 0;
-            for(k = 0; k < n; k++){
+            for(k=0 ; k<n ; k++){
                 R[i][j] += X[i][k] * Y[k][j];
             }
         }
